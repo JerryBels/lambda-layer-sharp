@@ -12,12 +12,12 @@
     "zip-webpack-plugin": "^4.0.1"
   },
   "dependencies": {
-    "sharp": "^0.32.1"
+    "sharp": "^0.34.1"
   },
   "scripts": {
     "postinstall": "npm run install-arm && npm run build",
     "install-arm": "npm install --prefix /tmp/sharp --arch=arm64 --platform=linux sharp && cp -R /tmp/sharp/node_modules/sharp node_modules/",
-    "build": "node ./node_modules/webpack/bin/webpack.js"
+    "build": "rm -rf dist && mkdir -p dist/nodejs && cp -R /tmp/sharp/node_modules/. dist/nodejs/node_modules/ && (cd dist && zip -r sharp-layer.zip nodejs)"
   },
   "engines": {
     "node": ">=14"

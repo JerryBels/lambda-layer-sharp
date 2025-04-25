@@ -31,3 +31,5 @@ npm ci --arch=x64 --platform=linux
 
 Build will be performed automatically upon deps installation.
 The resulted lambda layer zip file will be saved to `dist/` directory.
+
+If building in a Linux environment like AWS, simply running `npm i` should do it.
