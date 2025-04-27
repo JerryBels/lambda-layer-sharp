@@ -1,3 +1,5 @@
+Forked and updated for Node 22.
+
 # AWS Sharp layer
 This AWS lambda layer contains a latest pre-built vanilla [sharp](https://www.npmjs.com/package/sharp) npm library, so that you could "just use" it in your lambda code:
 
