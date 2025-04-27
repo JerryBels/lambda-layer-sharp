@@ -1,7 +1,7 @@
 {
   "name": "lambda-layer-sharp",
   "version": "1.1.0",
-  "repository": "git@github.com:Umkus/lambda-layer-sharp.git",
+  "repository": "git@github.com:JerryBels/lambda-layer-sharp.git",
   "license": "Apache License 2.0",
   "module": "lambda-layer-sharp",
   "devDependencies": {
@@ -22,5 +22,5 @@
   "engines": {
     "node": ">=14"
   },
-  "author": "Mykhailo Gorianskyi <goreanski@gmail.com>"
+  "author": "Jeremy Belolo <jerrybels@gmail.com>"
 }
